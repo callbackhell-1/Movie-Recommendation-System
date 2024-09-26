@@ -1,0 +1,14 @@
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.hide-scrollbar {
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Optional: Ensure smooth scrolling */
+.hide-scrollbar {
+    -webkit-overflow-scrolling: touch;
+}
